@@ -355,8 +355,8 @@ nav.show div.icon-x{
 }
 
 #testimonials cite img {
-  width: 2rem;
-  height: 2rem;
+  width: 2.5rem;
+  height: 2.5rem;
   object-fit: cover;
   clip-path: circle();
   margin-right: 0.5rem;
