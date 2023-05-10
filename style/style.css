@@ -440,16 +440,20 @@ footer .social{
 }
 /*-------------=----- To Top -----------------*/
 .to-top{
+  background-color: var(--color3);
+  width: 3.2rem;
+  height: 3.2rem;
   position: fixed;
   right: 1rem;
   bottom: 1rem;
-  font-size: 2.5rem;
-
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
   visibility: hidden;
   opacity: 0;
-
   transition: 0.3s;
-
   transform: translateY(100%);
 }
 .to-top.show{
@@ -459,7 +463,10 @@ footer .social{
 }
 .to-top a{
   text-decoration: none;
-  color: var(--color3);
+  color: var(--color2);
+}
+.to-top a:hover {
+  color: var(--color4);
 }
 /*-----------------Responsividade---------------*/
 /* extra large devices: 1200 > */
